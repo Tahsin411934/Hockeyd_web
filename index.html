@@ -24,6 +24,11 @@
 
     :root {
         --primary-color: #FF4240;
+        --p-color: rgba(19, 19, 24, 0.60);
+    }
+
+    .text-shadow {
+        text-shadow: 2px 2px;
     }
 </style>
 
@@ -74,7 +79,7 @@
     <!-- header end -->
     <main class="container mx-auto">
         <!-- banner section start-->
-        <section class="p-2 lg:mt-5 relative">
+        <section class="p-2 lg:mt-5 relative lg:mb-20">
             <div class="carousel w-full">
                 <div id="slide1"
                     class=" carousel-item relative  w-full bg-gradient-to-r from-slate-950 to-slate-900 rounded-2xl">
@@ -88,8 +93,10 @@
             </div>
             <div class="card  bg-[#131318] lg:w-[48%] text-neutral-content lg:absolute lg:bottom-10 lg:left-[50%]">
                 <div class="card-body ">
-                    <h2 class="card-title font-extrabold text-2xl text-[#FFF]">Meet all the heroes from the field</h2>
-                    <p class="font-medium text-base text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam 
+                    <h2 class="card-title font-extrabold text-lg lg:text-2xl text-[#FFF]">Meet all the heroes from the
+                        field</h2>
+                    <p class="font-medium text-sm lg:text-base text-[#FFFFFF99]">Dit amet consectetur. Condimentum
+                        dignissim adipiscing aliquam
                         turpis placerat dolor. Purus urna
                         in sit nullam. </p>
                     <div class="card-actions justify-end">
@@ -100,6 +107,300 @@
 
         </section>
         <!-- banner section end-->
+
+        <!-- professional section start -->
+        <section class=" lg:mt-10 relative lg:mb-20">
+            <div>
+                <div class="">
+                    <h1 class="text-[#131318] font-extrabold text-xl lg:text-4xl text-center py-5">Professional Hockeys
+                        Club</h1>
+                </div>
+                <div>
+                    <p class="text-[--p-color] text-sm lg:text-base font-medium text-center lg:w-[60%] m-auto pb-7">Dit
+                        amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                        sit nullam proin. </p>
+                </div>
+            </div>
+
+            <!-- progress start -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2  lgitems-center lg:justify-around gap-6 mt-20 ">
+                <div>
+                    <div class="flex flex-col justify-center items-center ">
+                        <div class="radial-progress text-3xl font-extrabold text-[--primary-color] "
+                            style="--value:87; --size:10rem; --thickness: 0.8rem; " max="100" role="progressbar">87%
+                        </div>
+                        <h1 class="text-[#131318] text-xl font-semibold py-6">Prayer Facility</h1>
+                    </div>
+
+                    <p class="text-[--p-color] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="radial-progress text-3xl font-extrabold text-[#49D293] "
+                            style="--value:95; --size:10rem; --thickness: 0.8rem; " max="100" role="progressbar">95%
+                        </div>
+                        <h1 class="text-[#131318] text-xl font-semibold py-6">Prayer Facility</h1>
+                    </div>
+
+                    <p class="text-[--p-color] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="radial-progress text-3xl font-extrabold text-[#FFB546] "
+                            style="--value:90; --size:10rem; --thickness: 0.8rem; " max="100" role="progressbar">90%
+                        </div>
+                        <h1 class="text-[#131318] text-xl font-semibold py-6">Prayer Facility</h1>
+                    </div>
+
+                    <p class="text-[--p-color] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="radial-progress text-3xl font-extrabold text-[#4C8DF1] "
+                            style="--value:80; --size:10rem; --thickness: 0.8rem; " max="100" role="progressbar">80%
+                        </div>
+                        <h1 class="text-[#131318] text-xl font-semibold py-6">Prayer Facility</h1>
+                    </div>
+
+                    <p class="text-[--p-color] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+
+            </div>
+            <!-- progress end -->
+        </section>
+        <!-- professional section end -->
+        <!-- Program Sections start -->
+        <section>
+            <div class="">
+                <h1 class="text-[#131318] font-extrabold text-xl lg:text-4xl text-center py-5">Program Sections</h1>
+            </div>
+            <div>
+                <p class="text-[--p-color] text-sm lg:text-base font-medium text-center lg:w-[60%] m-auto pb-24">Dit
+                    amet
+                    consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
+                    nullam
+                    proin. </p>
+            </div>
+            <!-- image-1 -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5   ">
+                <div class="relative ">
+                    <div class="absolute text-[#FFFFFF] w-[85%] top-[25%] left-[10%]">
+                        <h1 class="text-2xl font-extrabold">Junior Program</h1>
+                        <p class="text-base font-medium mt-3"></p> Dolor sit amet consectetur. Ut urna diam quis
+                        sagittis. Elit elit
+                        enim sagittis turpis in magna.
+                        </p>
+                        <button class="btn btn-neutral bg-[#FF4240] border border-[#FF4240] mt-3">Register Now!</button>
+                    </div>
+                    <img class="w-full" src="Images/2.png" alt="">
+                </div>
+
+
+                <!-- image-2 -->
+
+                <div class="relative">
+                    <div class="absolute text-[#FFFFFF] w-[85%] top-[25%] left-[10%]">
+                        <h1 class="text-2xl font-extrabold">Junior Program</h1>
+                        <p class="text-base font-medium mt-3"></p> Dolor sit amet consectetur. Ut urna diam quis
+                        sagittis. Elit elit
+                        enim sagittis turpis in magna.
+                        </p>
+                        <button class="btn btn-neutral bg-[#FF4240] border border-[#FF4240] mt-3">Register Now!</button>
+                    </div>
+                    <img class="w-full" src="Images/3.png" alt="">
+                </div>
+
+                <!-- image-3 -->
+
+                <div class="lg:col-span-2 relative">
+                    <div class="absolute text-[#FFFFFF] w-[85%] top-[25%] left-[10%] lg:left-[5%]">
+                        <h1 class="text-2xl font-extrabold">Junior Program</h1>
+                        <p class="text-base font-medium mt-3"></p> Dolor sit amet consectetur. Ut urna diam quis
+                        sagittis. Elit elit
+                        enim sagittis turpis in magna.
+                        </p>
+                        <button class="btn btn-neutral bg-[#FF4240] border border-[#FF4240] mt-3">Register Now!</button>
+                    </div>
+                    <img class="w-full h-64 lg:h-full" src="Images/4.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Program Sections end -->
+
+        <!-- Our New Products start -->
+
+        <section>
+            <!-- Our New Products title -->
+            <div class="mt-12">
+                <h1 class="text-[#131318] font-extrabold text-xl lg:text-4xl text-center py-5">Our New Products</h1>
+            </div>
+            <div>
+                <p class="text-[--p-color] text-sm lg:text-base font-medium text-center lg:w-[60%] m-auto pb-24">Dit
+                    amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
+                    nullam proin. </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 justify-between">
+                <!-- product-1 -->
+                <div class="flex gap-4 items-center p-6">
+                    <div>
+                        <img src="Images/5.png" alt="">
+                    </div>
+                    <div>
+                        <div class="rating rating-md flex gap-2 items-center">
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400 " />
+                            <p class="text-[--p-color]">5.0</p>
+                            <i class="fa-regular fa-eye text-[--p-color]"></i>
+                            <p class="text-[--p-color]">20</p>
+                            <i class="fa-regular fa-heart text-[--p-color]"></i>
+                            <p class="text-[--p-color]">203</p>
+
+                        </div>
+                        <h1 class="text-[#131318] font-extrabold text-xl my-3">World Cup Flags Football</h1>
+                        <p class="text-[--p-color]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex items-center gap-3">
+                            <p class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping text-[--p-color]"></i>
+                            <p class="text-[--p-color] my-5">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- product-2 -->
+                <div class="flex gap-4 items-center p-6">
+                    <div>
+                        <img src="Images/6.png" alt="">
+                    </div>
+                    <div>
+                        <div class="rating rating-md flex gap-2 items-center">
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400 " />
+                            <p class="text-[--p-color]">5.0</p>
+                            <i class="fa-regular fa-eye text-[--p-color]"></i>
+                            <p class="text-[--p-color]">20</p>
+                            <i class="fa-regular fa-heart text-[--p-color]"></i>
+                            <p class="text-[--p-color]">203</p>
+
+                        </div>
+                        <h1 class="text-[#131318] font-extrabold text-xl my-3">World Cup Flags Football</h1>
+                        <p class="text-[--p-color]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex items-center gap-3">
+                            <p class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping text-[--p-color]"></i>
+                            <p class="text-[--p-color] my-5">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- product-3 -->
+
+                <div class="flex gap-4 items-center p-6">
+                    <div>
+                        <img src="Images/7.png" alt="">
+                    </div>
+                    <div>
+                        <div class="rating rating-md flex gap-2 items-center">
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400 " />
+                            <p class="text-[--p-color]">5.0</p>
+                            <i class="fa-regular fa-eye text-[--p-color]"></i>
+                            <p class="text-[--p-color]">20</p>
+                            <i class="fa-regular fa-heart text-[--p-color]"></i>
+                            <p class="text-[--p-color]">203</p>
+
+                        </div>
+                        <h1 class="text-[#131318] font-extrabold text-xl my-3">World Cup Flags Football</h1>
+                        <p class="text-[--p-color]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex items-center gap-3">
+                            <p class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping text-[--p-color]"></i>
+                            <p class="text-[--p-color] my-5">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- product-4 -->
+                <div class="flex gap-4 items-center p-6">
+                    <div>
+                        <img src="Images/8.png" alt="">
+                    </div>
+                    <div>
+                        <div class="rating rating-md flex gap-2 items-center">
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400 " />
+                            <p class="text-[--p-color]">5.0</p>
+                            <i class="fa-regular fa-eye text-[--p-color]"></i>
+                            <p class="text-[--p-color]">20</p>
+                            <i class="fa-regular fa-heart text-[--p-color]"></i>
+                            <p class="text-[--p-color]">203</p>
+
+                        </div>
+                        <h1 class="text-[#131318] font-extrabold text-xl my-3">World Cup Flags Football</h1>
+                        <p class="text-[--p-color]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex items-center gap-3">
+                            <p class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping text-[--p-color]"></i>
+                            <p class="text-[--p-color] my-5">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- product-5 -->
+                <div class="flex gap-4 items-center p-6">
+                    <div>
+                        <img src="Images/9.png" alt="">
+                    </div>
+                    <div>
+                        <div class="rating rating-md flex gap-2 items-center">
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400 " />
+                            <p class="text-[--p-color]">5.0</p>
+                            <i class="fa-regular fa-eye text-[--p-color]"></i>
+                            <p class="text-[--p-color]">20</p>
+                            <i class="fa-regular fa-heart text-[--p-color]"></i>
+                            <p class="text-[--p-color]">203</p>
+
+                        </div>
+                        <h1 class="text-[#131318] font-extrabold text-xl my-3">World Cup Flags Football</h1>
+                        <p class="text-[--p-color]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex items-center gap-3">
+                            <p class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping text-[--p-color]"></i>
+                            <p class="text-[--p-color] my-5">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- product-6 -->
+                <div class="flex gap-4 items-center p-6">
+                    <div>
+                        <img src="Images/10.png" alt="">
+                    </div>
+                    <div>
+                        <div class="rating rating-md flex gap-2 items-center">
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400 " />
+                            <p class="text-[--p-color]">5.0</p>
+                            <i class="fa-regular fa-eye text-[--p-color]"></i>
+                            <p class="text-[--p-color]">20</p>
+                            <i class="fa-regular fa-heart text-[--p-color]"></i>
+                            <p class="text-[--p-color]">203</p>
+
+                        </div>
+                        <h1 class="text-[#131318] font-extrabold text-xl my-3">World Cup Flags Football</h1>
+                        <p class="text-[--p-color]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="flex items-center gap-3">
+                            <p class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping text-[--p-color]"></i>
+                            <p class="text-[--p-color] my-5">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our New Products end -->
     </main>
     <footer>
 
