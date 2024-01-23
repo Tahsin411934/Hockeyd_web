@@ -35,7 +35,7 @@
     }
 </style>
 
-<body class="manrope-font">
+<body class="manrope-font p-4">
     <!-- header start -->
     <header class="container mx-auto">
         <!-- navbar start -->
@@ -245,9 +245,9 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 justify-between">
                 <!-- product-1 -->
-                <div class="flex gap-4 items-center p-6">
+                <div class="flex flex-col lg:flex-row gap-4 lg:items-center p-6">
                     <div>
-                        <img src="Images/5.png" alt="">
+                        <img class="w-full" src="Images/5.png" alt="">
                     </div>
                     <div>
                         <div class="rating rating-md flex gap-2 items-center">
@@ -271,12 +271,12 @@
                 </div>
 
                 <!-- product-2 -->
-                <div class="flex gap-4 items-center p-6">
+                <div class="flex flex-col lg:flex-row gap-4 lg:items-center p-6">
                     <div>
-                        <img src="Images/6.png" alt="">
+                        <img class="w-full" src="Images/6.png" alt="">
                     </div>
                     <div>
-                        <div class="rating rating-md flex gap-2 items-center">
+                        <div class="rating rating-md flex-row gap-2 items-center">
                             <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400 " />
                             <p class="text-[--p-color]">5.0</p>
                             <i class="fa-regular fa-eye text-[--p-color]"></i>
@@ -297,10 +297,9 @@
                 </div>
 
                 <!-- product-3 -->
-
-                <div class="flex gap-4 items-center p-6">
+                <div class="flex flex-col lg:flex-row gap-4 lg:items-center p-6">
                     <div>
-                        <img src="Images/7.png" alt="">
+                        <img class="w-full" src="Images/7.png" alt="">
                     </div>
                     <div>
                         <div class="rating rating-md flex gap-2 items-center">
@@ -323,10 +322,11 @@
                     </div>
                 </div>
 
+
                 <!-- product-4 -->
-                <div class="flex gap-4 items-center p-6">
+                <div class="flex flex-col lg:flex-row gap-4 lg:items-center p-6">
                     <div>
-                        <img src="Images/8.png" alt="">
+                        <img class="w-full" src="Images/8.png" alt="">
                     </div>
                     <div>
                         <div class="rating rating-md flex gap-2 items-center">
@@ -350,9 +350,9 @@
                 </div>
 
                 <!-- product-5 -->
-                <div class="flex gap-4 items-center p-6">
+                <div class="flex flex-col lg:flex-row gap-4 lg:items-center p-6">
                     <div>
-                        <img src="Images/9.png" alt="">
+                        <img class="w-full" src="Images/9.png" alt="">
                     </div>
                     <div>
                         <div class="rating rating-md flex gap-2 items-center">
@@ -376,9 +376,9 @@
                 </div>
 
                 <!-- product-6 -->
-                <div class="flex gap-4 items-center p-6">
+                <div class="flex flex-col lg:flex-row gap-4 lg:items-center p-6">
                     <div>
-                        <img src="Images/10.png" alt="">
+                        <img class="w-full" src="Images/10.png" alt="">
                     </div>
                     <div>
                         <div class="rating rating-md flex gap-2 items-center">
@@ -499,7 +499,7 @@
             </div>
 
 
-            <div>
+            <div class="lg:flex gap-10 justify-between">
                 <div>
                     <div class="card w-96  shadow-xl bg-[--bg-color-1]">
                         <div class="card-body">
@@ -530,9 +530,56 @@
                     </div>
                 </div>
                 <div>
-                    
+                    <form action="">
+                        <div class="lg:flex gap-6">
+                            <div>
+                                <label class="text-[#131318] text-xl font-bold" for="">Your Name</label> <br>
+                                <input type="text" placeholder="Type here"
+                                    class="input input-bordered input-primary  w-[324px]" />
+                            </div>
+                            <div>
+                                <label class="text-[#131318] text-xl font-bold" for="">Your Name</label> <br>
+                                <input type="text" placeholder="Type here"
+                                    class="input input-bordered input-primary  w-[324px] max-w-xs" />
+                            </div>
+                        </div>
+                        <div class="lg:flex gap-6 my-6">
+                            <div>
+                                <label class="text-[#131318] text-xl font-bold" for="">Your Name</label> <br>
+                                <input type="text" placeholder="Type here"
+                                    class="input input-bordered input-primary w-[324px] max-w-xs" />
+                            </div>
+                            <div>
+                                <label class="text-[#131318] text-xl font-bold" for="">Your Name</label> <br>
+                                <input type="text" placeholder="Type here"
+                                    class="input input-bordered input-primary w-[324px] max-w-xs" />
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-[#131318] text-xl font-bold" for="">Your Name</label> <br>
+                            <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full h-[370px] " ></textarea>
+                        </div>
+                        <button class="btn btn-active btn-secondary w-full my-6">Secondary</button>
+                    </form>
                 </div>
             </div>
+
+            <!-- social media section start -->
+            <div class="mt-12">
+                <h1 class="text-[#131318] font-extrabold text-xl lg:text-4xl text-center py-5">Social Media
+                </h1>
+            </div>
+            <div >
+                <div class="flex justify-center gap-12">
+                <i class="fa-brands fa-twitter fa-3x"></i>
+                <i class="fa-brands fa-facebook-f fa-3x"></i>
+                <i class="fa-brands fa-instagram fa-3x"></i>
+                <i class="fa-brands fa-github fa-3x"></i>
+            </div>
+        </div>
+           
+
+
         </section>
 
         <!-- Get In Touch start -->
